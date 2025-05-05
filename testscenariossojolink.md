@@ -31,8 +31,8 @@ This document outlines the test scenarios for the Sojo Link.
 
 ## **Scenario 1.1.3: User attempts login with unverified email and receives verification required error**
 **Given** the user has successfully signed up but has not verified their email  
-**When** the user enters valid login credentials (email and password) on the login page
-**And** clicks the login button
+**When** the user enters valid login credentials (email and password) on the login page  
+**And** clicks the login button  
 **Then** an error message should be displayed stating that email verification is required before logging in
 
 ---
